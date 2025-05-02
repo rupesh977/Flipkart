@@ -1,0 +1,472 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+
+
+body {
+    background-color: #f2f2f2;
+    font-family: roboto;
+}
+
+
+header {
+    height: 70px;
+    background-color: white;
+}
+
+/****************************************NAVBAR**********************************/
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    top: 13px;
+}
+
+/******** NAVBAR DIVIDED INTO TWO PART .sub-nav1 , sub-nav2*****************************/
+
+.sub-nav1 {
+    display: flex;
+    align-items: center;
+    width: 63vw;
+    gap: 56px;
+}
+
+.flipkart-logo{
+    position: relative;
+}
+
+.search-bar{
+    display: flex;
+    height: 42px;
+    width: 100%;
+    background-color: rgb(226, 236, 246);
+    border-radius: 12px;
+}
+
+.search-bar input{
+    border: none;
+    font-size: 18px;
+}
+
+.search-icon{
+    display: flex;
+    width: 44px;
+    justify-content: center;
+    align-items: center;
+}
+
+.search-icon i{
+    font-size: 25px;
+
+}
+
+.search-icon input{
+    width: 100%;
+}
+
+
+/****************************header sub-nav2***************/
+
+
+.sub-nav2 {
+    display: flex;
+    align-items: center;
+    /* justify-content: space-evenly; */
+    width: 37vw;
+    height: 42px;
+
+}
+
+.login{
+    height: 100%;
+    /* width: 111px; */
+    /* height: 31px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 19px;
+    padding: 0px 10px;
+}
+
+.login a{
+    display: flex;
+        font-size: 18px;
+        justify-content: center;
+        align-items: center;
+}
+
+.login .user-icon{
+    font-size: 20px;
+    margin: 0 13px 0 0;
+}
+
+.angle-icon{
+    font-size: 13px;
+    margin-left: 8px;
+}
+
+
+
+.cart{
+    display: flex;
+        height: 100%;
+        width: 82px;
+        justify-content: center;
+        align-items: center;
+        margin:0 15px;
+}
+
+.cart a{
+    display: flex;
+        font-size: 18px;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+}
+
+.cart i{
+    padding: 0 13px 0 0;
+}
+
+.seller{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 15px;
+    padding: 0px 10px;
+}
+
+.seller a{
+    font-size: 18px;
+}
+
+.seller i{
+    margin: 0 13px 0 0;
+}
+
+.three-dot{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 42px;
+    margin-left: 15px;
+}
+
+
+.sub-nav2 a{
+    text-decoration: none;
+    color: black;
+}
+
+
+/***************************************MAIN*********************************/
+
+
+
+main {
+    height: 100%;
+    margin: 10px 14px;
+    object-fit: contain;
+}
+
+.main-container{
+    height: 132px;
+    background-color: white;
+    font-weight: 500;
+}
+
+
+.main-container-item{
+    height: 132px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.main-container-item a{
+    display: block;
+    width: 100px;
+    height: 100px;
+    margin: 16px 20px;
+    text-decoration: none;
+    color: black;
+}
+
+
+
+.span1{
+    position: relative;
+    left: 22px;
+}
+.span2{
+    position: relative;
+   left: 15px;
+}
+.span3{
+    position: relative;
+    left: 15px;
+}
+.span4{
+    position: relative;
+   
+}
+.span5{
+    position: relative;
+    left: 12px;
+}
+.span6{
+    position: relative;
+    left: 5px;
+}
+
+.span7{
+    position: relative;
+    right: 5px;
+}
+
+.span8{
+    position: relative;
+    right: 4px;
+}
+.span9{
+    position: relative;
+    right: 4px;
+}
+
+
+/**********************HERO-IMAGE SECTION************************/
+
+
+.hero-section{
+    background-color: white;
+    position: relative;
+    top: 15px;
+}
+
+.hero-section-img{
+    height: 235px;
+}
+
+
+.hero-section-img img{
+    height: 235px;
+    width: 100%;
+}
+
+
+.hero-section-bottom{
+    height: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.hero-section-bottom .line1, .line2,  .line3, .line4{ 
+    display: flex;
+    margin: 0 10px;
+    height: 3px;
+    width: 25px;
+    background-color: rgb(197, 185, 185);
+    border-radius: 33px;
+}
+
+.section2 {
+    height: 330px;
+    width: 97.2vw;
+    background-color: white;
+    position: relative;
+    top: 45px;
+}
+
+#s-gap{
+    position: relative;
+    top: 60px;
+    height: 330px;
+}
+
+.product-topic{
+    display: grid;
+    height: 45px;
+    padding: 15px 25px 15px 25px;
+    align-items: center;
+}
+
+#topic-name{
+    font-size: 25px;
+}
+
+/**************************/
+
+
+.section1-cart{
+    display: grid;
+    grid-auto-flow: column;
+}
+
+
+.s-c-i-content{
+    height: 244px;
+    width: 223px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main a {
+    height: 213px;
+    width: 163px;
+    color: #000;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+}
+
+.image{
+    height: 150px;
+    width: 150px;
+    padding: 13px 0px
+}
+
+.image-img1{
+    height: 150px;
+    width: 150px;
+    object-fit: contain;
+}
+
+#product-name{
+    font-size: 14px;
+    font-weight: 400;
+    color: black;
+}
+
+#product-offer{
+    font-size: 18px;
+    font-weight: 900;
+}
+
+
+.section1-cart {
+    display: flex;
+    overflow-x: auto; /* Enables horizontal scrolling */
+    scroll-behavior: smooth; /* Smooth scrolling */
+    gap: 10px; /* Space between items */
+    scroll-snap-type: x mandatory; /* Enables snapping to items */
+    -ms-overflow-style: none; /* Hides scrollbar in IE */
+    scrollbar-width: none; /* Hides scrollbar in Firefox */
+}
+
+.section1-cart::-webkit-scrollbar {
+    display: none; /* Hides scrollbar in Chrome, Safari, and Edge */
+}
+
+.s-c-i-content {
+    flex: 0 0 auto; /* Prevents shrinking and ensures proper alignment */
+    width: 200px; /* Adjust width as needed */
+    scroll-snap-align: start; /* Ensures items snap into place */
+    text-align: center;
+}
+
+ 
+.product-box {
+    height: 330px;
+    position: relative;
+    top: 30px;
+    width: 82vw;
+    background-color: white;
+}
+
+.section2-img{
+    position: absolute;
+    left: 1282px;
+    top: 489px;
+    z-index: 10;
+    height: 340px;
+    width: 217px;
+}
+
+
+footer{
+    position: relative;
+    top: 70px;
+}
+
+
+footer {
+    background-color:  #232323;
+    padding: 20px 0;
+    font-family: roboto;
+    color: #333;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.footer-section {
+    flex: 1 1 200px;
+    margin: 10px;
+}
+
+.footer-section h4 {
+    font-size: 18px;
+    margin-bottom: 15px;
+    color: #ffffffe3;
+}
+
+.footer-section ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-section ul li {
+    margin-bottom: 10px;
+}
+
+.footer-section ul li a {
+    text-decoration: none;
+    color: #ffffff7a;
+    font-size: 14px;
+    transition: color 0.3s;
+}
+
+.footer-section ul li a:hover {
+    color: #000;
+}
+
+.footer-bottom {
+    text-align: center;
+    padding: 10px 0;
+    font-size: 14px;
+    color: #ffffffcc;
+    border-top: 1px solid #ddd;
+    margin-top: 20px;
+}
+
+@media (max-width: 768px) {
+    .footer-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footer-section {
+        text-align: center;
+    }
+}
+
+
+
+

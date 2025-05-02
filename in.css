@@ -1,0 +1,159 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+body{
+    background-color: aqua;
+}
+/******************************header*************************************/
+
+
+nav{
+    height: 70px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+}
+
+
+/******************header sub-nav1***************/
+
+
+
+.sub-nav1 {
+    display: flex;
+    align-items: center;
+    width: 63vw;
+    gap: 56px;
+}
+
+.flipkart-logo{
+    position: relative;
+}
+
+.search-bar{
+    display: flex;
+    height: 42px;
+    width: 100%;
+    background-color: rgb(226, 236, 246);
+    border-radius: 12px;
+}
+
+.search-bar input{
+    border: none;
+    font-size: 18px;
+}
+
+.search-icon{
+    display: flex;
+    width: 44px;
+    justify-content: center;
+    align-items: center;
+}
+
+.search-icon i{
+    font-size: 25px;
+
+}
+
+.search-icon input{
+    width: 100%;
+}
+
+
+/****************************header sub-nav2***************/
+
+
+.sub-nav2 {
+    display: flex;
+    align-items: center;
+    /* justify-content: space-evenly; */
+    width: 37vw;
+    height: 42px;
+
+}
+
+.login{
+    height: 100%;
+    /* width: 111px; */
+    /* height: 31px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 19px;
+    padding: 0px 10px;
+}
+
+.login a{
+    display: flex;
+        font-size: 18px;
+        justify-content: center;
+        align-items: center;
+}
+
+.login .user-icon{
+    font-size: 20px;
+    margin: 0 13px 0 0;
+}
+
+.angle-icon{
+    font-size: 13px;
+    margin-left: 8px;
+}
+
+
+
+.cart{
+    display: flex;
+        height: 100%;
+        width: 82px;
+        justify-content: center;
+        align-items: center;
+        margin:0 15px;
+}
+
+.cart a{
+    display: flex;
+        font-size: 18px;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+}
+
+.cart i{
+    padding: 0 13px 0 0;
+}
+
+.seller{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 15px;
+    padding: 0px 10px;
+}
+
+.seller a{
+    font-size: 18px;
+}
+
+.seller i{
+    margin: 0 13px 0 0;
+}
+
+.three-dot{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 42px;
+    margin-left: 15px;
+}
+
+
+.sub-nav2 a{
+    text-decoration: none;
+    color: black;
+}
